@@ -297,7 +297,7 @@ main .sobre-nosotros{
  /*Pagina contacto*/
 
  .content-form {
-    max-width: 100%;
+    max-width: 600px;
     margin: auto;
     box-sizing: border-box;
     padding: 1.5em;
@@ -324,7 +324,6 @@ main .sobre-nosotros{
   .contact-form {
     background: #301231;
     border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
   }
   
   .contact-form form {
