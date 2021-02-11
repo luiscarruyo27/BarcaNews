@@ -56,23 +56,23 @@ header {
 }
 
 nav{
-    background: rgba(32, 12, 53, 0.836);
-    border-radius: 15px;
-    margin-top: 5px;
-    padding: 15px 10px 10px 10px;
+    width: 100%;
+    z-index: 100;
+    text-align: right;
+    background: rgba(5, 5, 46, 0.555);
+    padding: 30px 50px 0 0;
     position: fixed;
 }
 
 nav > a{
     color:#fff;
-    font-weight: 300px;
+    font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
 }
 
 nav > a:hover{
     text-decoration: underline;
-    color: crimson;
 }
 
 header .textos-header{
@@ -244,8 +244,7 @@ main .sobre-nosotros{
 .cards .card{
     background: #3e165f;
     display: flex;
-    width: 46%;
-    height: 200px;
+    width: 500px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 10px;
@@ -253,10 +252,9 @@ main .sobre-nosotros{
 }
 
 .cards .card img{
-    width: 450px;
-    height: 100px;
+    width: 320px;
     object-fit: cover;
-    border: 3px solid #fff;
+    border: 3px solid rgb(105, 1, 1);
     display: block;
 }
 
@@ -299,14 +297,12 @@ main .sobre-nosotros{
  /*Pagina contacto*/
 
  .content-form {
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
+    margin: auto;
     box-sizing: border-box;
     padding: 1.5em;
     color: #fff;
     line-height: 1.6;
-    padding: 0 1.5em;
     font-family: 'Quicksand', sans-serif;
   }
   
@@ -429,7 +425,7 @@ footer{
     color: #9e9797;
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:720px){
     header{
         background-position: center;
     }
@@ -530,8 +526,6 @@ footer{
     .sobre-nosotros .contenido-textos{
         width: 95%;
     }
-
-    /* Galeria */
 
     .imagen-port{
         width: 95%;
